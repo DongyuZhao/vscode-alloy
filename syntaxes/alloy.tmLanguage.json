@@ -219,7 +219,7 @@
             "repository": {
                 "module": {
                     "patterns": [{
-                        "match": "(module)\\s*((?:\\w|'|_|\\d|/)+)",
+                        "match": "(module)\\b\\s*((?:\\w|'|_|\\d|/)+)",
                         "captures": {
                             "1": {
                                 "name": "keyword.language.module.alloy"
@@ -232,7 +232,7 @@
                 },
                 "predict": {
                     "patterns": [{
-                        "match": "(pred)\\s*((?:\\w|'|_|\\d|/)+)",
+                        "match": "(pred)\\b\\s*((?:\\w|'|_|\\d|/)+)",
                         "captures": {
                             "1": {
                                 "name": "keyword.language.pred.alloy"
@@ -245,7 +245,7 @@
                 },
                 "signature": {
                     "patterns": [{
-                        "begin": "(abstract)?\\s*(lone|some|one)?\\s*(sig)\\s*",
+                        "begin": "(abstract)?\\s*(lone|some|one)?\\s*(sig)\\b\\s*",
                         "end": "(?=\\{)",
                         "beginCaptures": {
                             "1": {
@@ -302,7 +302,7 @@
                 },
                 "fact": {
                     "patterns": [{
-                        "match": "(fact)\\s*((?:\\w|'|_|\\d|/)+)",
+                        "match": "(fact)\\b\\s*((?:\\w|'|_|\\d|/)+)",
                         "captures": {
                             "1": {
                                 "name": "keyword.language.fact.alloy"
@@ -315,7 +315,7 @@
                 },
                 "fun": {
                     "patterns": [{
-                        "match": "(fun)\\s*((?:\\w|'|_|\\d|/)+)",
+                        "match": "(fun)\\b\\s*((?:\\w|'|_|\\d|/)+)",
                         "captures": {
                             "1": {
                                 "name": "keyword.language.fun.alloy"
@@ -330,7 +330,7 @@
         },
         "expression": {
             "patterns": [{
-                    "match": "(check)\\s*((?:\\w|'|_|\\d|/)+)",
+                    "match": "(check)\\b\\s*((?:\\w|'|_|\\d|/)+)",
                     "captures": {
                         "1": {
                             "name": "keyword.language.check.alloy"
@@ -341,7 +341,7 @@
                     }
                 },
                 {
-                    "match": "(assert)\\s*((?:\\w|'|_|\\d|/)+)",
+                    "match": "(assert)\\b\\s*((?:\\w|'|_|\\d|/)+)",
                     "captures": {
                         "1": {
                             "name": "keyword.language.assert.alloy"
