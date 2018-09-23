@@ -1,40 +1,41 @@
 {
-	"name": "alloy-vscode",
-	"displayName": "Alloy VSCode",
-	"description": "Alloy analyzer language support",
-	"version": "0.1.2",
-	"publisher": "DongyuZhao",
-	"engines": {
-		"vscode": "^1.12.0"
-	},
-	"categories": [
-		"Languages"
-	],
-	"contributes": {
-		"languages": [
-			{
-				"id": "alloy",
-				"aliases": [
-					"Alloy",
-					"alloy"
-				],
-				"extensions": [
-					".als"
-				],
-				"configuration": "./language-configuration.json"
-			}
-		],
-		"grammars": [
-			{
-				"language": "alloy",
-				"scopeName": "source.als",
-				"path": "./syntaxes/alloy.tmLanguage.json"
-			}
-		]
-	},
-	"__metadata": {
-		"id": "4486ab47-8e95-46ad-b12a-877919ec959b",
-		"publisherId": "8fe1968c-9b6c-4259-9acc-1cdffa779687",
-		"publisherDisplayName": "Dongyu Zhao"
-	}
+    "name": "alloy-vscode",
+    "displayName": "Alloy VSCode",
+    "description": "Alloy analyzer language support",
+    "repository": "https://github.com/DongyuZhao/vscode-alloy",
+    "version": "0.1.3",
+    "publisher": "DongyuZhao",
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "alloy",
+                "aliases": [
+                    "Alloy",
+                    "alloy"
+                ],
+                "extensions": [
+                    ".als"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "alloy",
+                "scopeName": "source.als",
+                "path": "./syntaxes/alloy.tmLanguage.json"
+            }
+        ]
+    },
+    "__metadata": {
+        "id": "4486ab47-8e95-46ad-b12a-877919ec959b",
+        "publisherId": "8fe1968c-9b6c-4259-9acc-1cdffa779687",
+        "publisherDisplayName": "Dongyu Zhao"
+    }
 }

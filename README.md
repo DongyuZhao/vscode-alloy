@@ -20,6 +20,10 @@ Some (maybe not) complex expressions might not be able to colorize as expected.
 
 ## Release Notes
 
+### 0.1.3
+
+Fix some issues, thanks for Arash Sahebolamri.
+
 ### 0.1.2
 
 Now support self defined module and functions.
