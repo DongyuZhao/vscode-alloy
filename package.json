@@ -3,7 +3,7 @@
     "displayName": "Alloy VSCode",
     "description": "Alloy analyzer language support",
     "repository": "https://github.com/DongyuZhao/vscode-alloy",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "publisher": "DongyuZhao",
     "engines": {
         "vscode": "^1.12.0"
@@ -30,7 +30,17 @@
                 "language": "alloy",
                 "scopeName": "source.als",
                 "path": "./syntaxes/alloy.tmLanguage.json"
-            }
+			},
+			{
+				"scopeName": "markdown.alloy.codeblock",
+				"path": "./syntaxes/alloy.markdown.json",
+				"injectTo": [
+				  "text.html.markdown"
+				],
+				"embeddedLanguages": {
+				  "meta.embedded.block.alloy": "alloy"
+				}
+			  }
         ]
     },
     "__metadata": {

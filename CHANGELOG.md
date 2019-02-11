@@ -1,3 +1,7 @@
+### 0.1.4
+
+Added support for Alloy code blocks in markdown
+
 ### 0.1.3
 
 Fix some issues, thanks for Arash Sahebolamri.
