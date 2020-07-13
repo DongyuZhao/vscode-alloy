@@ -3,13 +3,13 @@
     "displayName": "Alloy VSCode",
     "description": "Alloy analyzer language support",
     "repository": "https://github.com/DongyuZhao/vscode-alloy",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "publisher": "DongyuZhao",
     "engines": {
         "vscode": "^1.12.0"
     },
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
     "contributes": {
         "languages": [

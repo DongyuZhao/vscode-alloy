@@ -1,5 +1,10 @@
+### 0.1.6
 
+Update package category.
 
+### 0.1.5
+
+Add highlight to "seq" and "else", thanks for Ferhat Erata.
 
 ### 0.1.4
 

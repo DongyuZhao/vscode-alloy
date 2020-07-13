@@ -1,6 +1,6 @@
 # Alloy-VSCode README
 
-This extention provides very basic syntax high-lighting for Alloy Analyzer(<http://alloy.mit.edu/alloy/index.html>).
+This extension provides very basic syntax high-lighting for Alloy Analyzer(<http://alloy.mit.edu/alloy/index.html>).
 
 There might be some bugs and could not handle all of the situations.
 
@@ -17,6 +17,10 @@ Nothing
 Some (maybe not) complex expressions might not be able to colorize as expected.
 
 ## Release Notes
+
+### 0.1.6
+
+Update package category.
 
 ### 0.1.5
 
