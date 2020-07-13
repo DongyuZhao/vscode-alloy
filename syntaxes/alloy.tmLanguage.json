@@ -148,7 +148,7 @@
                                     "name": "keyword.operator.binary.alloy"
                                 },
                                 {
-                                    "match": "\\b(and|or|iff|implies|in)\\b",
+                                    "match": "\\b(and|or|iff|implies|else|in)\\b",
                                     "name": "keyword.operator.binary.alloy"
                                 },
                                 {
