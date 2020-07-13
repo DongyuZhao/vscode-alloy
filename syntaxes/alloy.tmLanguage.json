@@ -122,7 +122,7 @@
                             "name": "keyword.modifier.abstract.alloy"
                         },
                         {
-                            "match": "\\b(all|disj|lone|no|one|set|some|sum|univ|none)\\b",
+                            "match": "\\b(all|disj|lone|no|one|set|seq|some|sum|univ|none)\\b",
                             "name": "keyword.modifier.set.alloy"
                         }
                     ]
